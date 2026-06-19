@@ -23,7 +23,7 @@ Dataset is of Credit Cards customer data. This dataset includes the following da
 - Customer engagement data like total relationship count, months on book, months inactive, contacts count, average card utilization ratio
 - Customer spending data like credit limit, total transaction count, total transaction amount, revolving balance
 - Customer attrition indicator
-Source - https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data
+- Source - https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data
 
 #### Methodology
 What methods are you using to answer the question?
@@ -36,7 +36,7 @@ What methods are you using to answer the question?
 #### Results
 What did your research find?
 
-EDA Observations
+#### EDA Observations
 - The dataset is imbalanced between the two classes 'Existing Customer and 'Attrited customer' with 84% as existing customer and 16% as attrited customer
 - There are big outliers seen on higher side for the Credit limit which is casing the mean to be almost double of median and making the data for this column right skewed.
 - Right skewness also seen for Avg_Open_To_Buy and Total_Trans_Amt columns.
@@ -47,7 +47,7 @@ EDA Observations
 - The KDE plot clearly shows that for the majority of Attrited Customers the Avg Utilization ratio drops to zero before they leave the service.
 - There seems to be partial relationship between income category and credit limit with clear correlation on the lower side of the income category unto 60k. But 60k+ shows no direct correlation. 
 
-Feature Engineering
+#### Feature Engineering
 
 As part of feature engineering, two new columns are created
 - Avg_Transaction_Size - This column is calculated by dividing the Total_Trans_Amt with Total_Trans_Ct to create the column to get insight into the average spending of the customer per transaction
@@ -60,7 +60,7 @@ The following column transformations are applied to the columns
 - Education_Level column is transformed using OrdinalEncoder with the custom defined order of the education levels.
 - The target variable Attrition_Flag is mapped as Existing Customers as 0 and Attrited Customer as 1
 
-Baseline Model
+#### Baseline Model
 
 We used LogisticRegression as the model to baseline results. Interpreting the results of the Logistic Regression model with only setting the class_weigth='balalnced' and no other hyperparameter configuration we observe the following results
 - The training accuracy (86.2%) and test accuracy of (85.7%) are very close which indicates that Logistic Regression model is generalizing on the unseen data and there is no overfitting
@@ -72,7 +72,8 @@ We used LogisticRegression as the model to baseline results. Interpreting the re
 
 
 #### Next steps
-What suggestions do you have for next steps?
+What suggestions do you have for next steps? 
+The next steps are to use the range of models as listed in Methodology section above to improve the results from the baseline results discussed above.
 
 #### Outline of project
 
