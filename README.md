@@ -76,7 +76,7 @@ What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- [[Link to notebook 1]()](https://github.com/bssabharwal/credit-card-churn-predict-eda/blob/main/notebook/credit_card_churn_predict_eda.ipynb)
 - [Link to notebook 2]()
 - [Link to notebook 3]()
 
