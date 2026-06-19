@@ -5,17 +5,12 @@
 #### Executive summary
 
 #### Rationale
-Why should anyone care about this question?
-
 At the heart of any business model is the relationship between the business and their customers. Customers are the most important asset of the business and is the sole reason for the business to exist. It is very important for business to maintain good relationship with customers and proactively work to understand the expectations, needs and complaints of the customers to retain the customers. Customer churn prediction is the problem which is relevant across different industries, retaining the customers is important for every industry whether it is credit card company, telecom company, banking, retail or any other industry. The companies must have strong capabilities to predict which customers can leave so they can take proactive measures like target marketing, discounts or other measures to retain them.
 
 #### Research Question
-What are you trying to answer?
-
 Predicting the customer who are more likely to leave the credit card services so that the credit card company can proactively reach out to them with better services and products and make them stay with the company.
 
 #### Data Sources
-What data will you use to answer you question?
 
 Dataset is of Credit Cards customer data. This dataset includes the following data
 - Product data like card category
@@ -26,15 +21,12 @@ Dataset is of Credit Cards customer data. This dataset includes the following da
 - Source - https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data
 
 #### Methodology
-What methods are you using to answer the question?
-
 - Baseline - LogisticRegression
 - Classification Algorithms - KNN, Decision Trees, SVM
 - Ensemble techniques - Random Forest, XGBoost
 - Neural Networks
 
 #### Results
-What did your research find?
 
 #### EDA Observations
 - The dataset is imbalanced between the two classes 'Existing Customer and 'Attrited customer' with 84% as existing customer and 16% as attrited customer
@@ -72,7 +64,6 @@ We used LogisticRegression as the model to baseline results. Interpreting the re
 
 
 #### Next steps
-What suggestions do you have for next steps? 
 The next steps are to use the range of models as listed in Methodology section above to improve the results from the baseline results discussed above.
 
 #### Outline of project
