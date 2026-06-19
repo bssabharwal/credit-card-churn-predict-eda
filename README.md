@@ -28,10 +28,10 @@ Source - https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data
 #### Methodology
 What methods are you using to answer the question?
 
-Baseline - LogisticRegression
-Classification Algorithms - KNN, Decision Trees, SVM
-Ensemble techniques - Random Forest, XGBoost
-Neural Networks
+- Baseline - LogisticRegression
+- Classification Algorithms - KNN, Decision Trees, SVM
+- Ensemble techniques - Random Forest, XGBoost
+- Neural Networks
 
 #### Results
 What did your research find?
